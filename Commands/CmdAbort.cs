@@ -50,7 +50,7 @@ namespace MCForge.Commands
                 Player.SendMessage(p, "Every toggle or action was aborted.");
                 return;
             }
-            Player.SendMessage(p, "This command can only be used in-game!");
+            Player.SendMessage(p, "This command can only be used in-game! Not by you silly!");
         }
         public override void Help(Player p)
         {
